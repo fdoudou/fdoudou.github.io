@@ -1,4 +1,6 @@
-package piscine
+package main
+
+import "fmt"
 
 func Rot14(s string) string {
 	resultat := ""
@@ -23,4 +25,8 @@ func Rot14(s string) string {
 		}
 	}
 	return resultat
+}
+
+func main() {
+	fmt.Println(Rot14("Hello world"))
 }
